@@ -18,7 +18,9 @@ namespace LINQ_Using_Concat_Distinct_Union_Properties
 
             // Concat(); for Adding the grp to another and print the total data .
             // Distinct(); Do not show duplicate items .
-            // Union(); place of using the Concat and Distinct Methods use the Union Method . var Concat_grp = IBM_grp.Union(Microsoft_grp);
+            
+            // Union(); place of using the Concat and Distinct Methods use the Union Method . 
+            #Comment => var Concat_grp = IBM_grp.Union(Microsoft_grp);
 
             foreach (var item in Concat_grp)
                 Console.WriteLine(item);
